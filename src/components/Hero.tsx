@@ -19,7 +19,7 @@ export default function Hero() {
           and build your Personal Monopoly in the global digital landscape.
         </p>
         
-        <button className="group bg-blue-500 hover:bg-blue-600 text-white text-lg font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
+        <button className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
           <span>Join the Movement</span>
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </button>
