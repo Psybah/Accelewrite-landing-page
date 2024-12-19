@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Globe } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -7,7 +7,12 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] opacity-30 bg-cover bg-center" />
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 flex flex-col items-center justify-center min-h-screen text-center">
-        <Globe className="w-16 h-16 text-blue-400 mb-8 animate-pulse" />
+        {/* Replace the Globe icon with your logo */}
+        <img
+          src="/logo.svg"
+          alt="Logo"
+          className="w-16 h-16 mb-8 animate-pulse"
+        />
         
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Master the Art of Digital Writing.<br />
