@@ -3,7 +3,7 @@ import { ArrowRight, Globe } from 'lucide-react';
 
 export default function Hero() {
   return (
-   <div className="relative min-h-screen bg-gradient-to-t from-[#121b54] via-[#1b2a7f] to-[#2c3eb0] overflow-hidden">
+   <div className="relative min-h-screen bg-gradient-to-b from-[#121b54] via-[#1b2a7f] to-[#ffffff] overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] opacity-50 bg-cover bg-center" />
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 flex flex-col items-center justify-center min-h-screen text-center">
