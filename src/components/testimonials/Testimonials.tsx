@@ -67,7 +67,7 @@ export default function Testimonials() {
 
           <button 
             onClick={handlePrev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-[#cc9832] p-2 sm:ml-4 rounded-full text-white hover:bg-[#b88729] transition-colors"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-[#cc9832] p-2 ml-4 rounded-full text-white hover:bg-[#b88729] transition-colors"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-6 h-6" />
