@@ -11,7 +11,7 @@ export default function Hero() {
         
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           Master the Art of Digital Writing.<br />
-          <span className="text-blue-400">Own Your Space on the Internet.</span>
+          <span className="text-[#cc9832]">Own Your Space on the Internet.</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl">
