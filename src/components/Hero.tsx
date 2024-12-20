@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src="/logo.svg"
           alt="Logo"
-          className="mb-8 animate-pulse filter invert"
+          className="size-18 mb-8 animate-pulse filter invert"
         />
 
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
