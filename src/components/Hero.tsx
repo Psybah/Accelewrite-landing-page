@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src="/logo.png"
           alt="Logo"
-          className="size-18 sm:size-12 md:size-18 lg:size-18 mb-6 animate-pulse"
+          className="w-18 sm:w-12 md:w-18 lg:w-18 mb-6 animate-pulse"
         />
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6 leading-snug">
