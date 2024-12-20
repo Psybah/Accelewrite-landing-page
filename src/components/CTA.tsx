@@ -23,6 +23,11 @@ export default function CTA() {
             <span>Next cohort starting soon</span>
           </div>
         </div>
+        
+        {/* Tagline */}
+        <p className="mt-12 text-lg text-[#b8bbd5]">
+          Accelerate your career and business by writing online...
+        </p>
       </div>
     </div>
   );
