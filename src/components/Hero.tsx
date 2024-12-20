@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 flex flex-col items-center justify-center min-h-screen text-center">
         {/* Use the logo */}
         <img
-          src="/logo.svg"
+          src="/logo.png"
           alt="Logo"
           className="size-18 animate-pulse filter invert"
         />
