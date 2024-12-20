@@ -11,20 +11,20 @@ export default function Hero() {
         <img
           src="/logo.png"
           alt="Logo"
-          className="size-18 mb-10 animate-pulse"
+          className="w-24 sm:w-32 md:w-40 mb-6 animate-pulse"
         />
 
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6 leading-snug">
           Master the Art of Digital Writing.<br />
           <span className="text-[#cc9832]">Own Your Space on the Internet.</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl">
+        <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 sm:mb-12 max-w-xl sm:max-w-3xl">
           Transform your writing into a powerful digital presence. Join the $1 trillion creator economy 
           and build your Personal Monopoly in the global digital landscape.
         </p>
 
-        <button className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
+        <button className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
           <span>Join the Movement</span>
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </button>
