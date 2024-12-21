@@ -1,7 +1,18 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 
 export default function Hero() {
+   const handleDownloadBrochure = () => {
+    // Replace this URL with your actual PDF URL
+    const pdfUrl = '/brochure.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Accelewrite-Brochure.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-[#121b54] via-[#1b2a7f] to-[#121b54] overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] opacity-30 bg-cover bg-center" />
@@ -28,6 +39,14 @@ export default function Hero() {
           <span>Join the Movement</span>
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </button>
+
+        <button 
+            onClick={handleDownloadBrochure}
+            className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
+          >
+            <span>Download Brochure</span>
+            <Download className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
+          </button>
       </div>
     </div>
   );
