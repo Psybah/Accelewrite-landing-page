@@ -25,13 +25,13 @@ export default function Hero() {
         />
 
         {/* Heading */}
-        <h1 className="text-3xl sm:text-3xl md:text-6xl font-bold text-white mb-4 sm:mb-6 leading-snug">
+        <h1 className="text-xl sm:text-xl md:text-6xl lg:text-3xl font-bold text-white mb-4 sm:mb-6 leading-snug">
           Master the Art of Digital Writing.<br />
           <span className="text-[#cc9832]">Own Your Space on the Internet.</span>
         </h1>
 
         {/* Paragraph */}
-        <p className="text-lg sm:text-xl md:text-xl text-gray-300 mb-8 sm:mb-12 max-w-xl sm:max-w-3xl">
+        <p className="text-lg sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-12 max-w-xl sm:max-w-3xl">
           Transform your writing into a powerful digital presence. Join the $1 trillion creator economy 
           and build your Personal Monopoly in the global digital landscape.
         </p>
