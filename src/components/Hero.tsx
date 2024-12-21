@@ -25,7 +25,7 @@ export default function Hero() {
         />
 
         {/* Heading */}
-        <h1 className="text-xl sm:text-xl md:text-6xl lg:text-3xl font-bold text-white mb-4 sm:mb-6 leading-snug">
+        <h1 className="text-3xl sm:text-xl md:text-6xl font-bold text-white mb-4 sm:mb-6 leading-snug">
           Master the Art of Digital Writing.<br />
           <span className="text-[#cc9832]">Own Your Space on the Internet.</span>
         </h1>
