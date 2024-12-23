@@ -1,28 +1,28 @@
 import React from 'react';
-import { Instagram, Twitter, Facebook, Download, linkedin } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Download, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const socials = [
     {
       icon: Instagram,
       href: 'https://www.instagram.com/pison_group?igsh=Y3J2cHJ2bWVtNW9x',
-      label: 'Follow us on Instagram'
+      label: 'Follow us on Instagram',
     },
     {
       icon: Twitter,
       href: 'https://x.com/pison_group?t=Dh4viWU4JwO7JqPaHVnnwg&s=09',
-      label: 'Follow us on X (Twitter)'
+      label: 'Follow us on X (Twitter)',
     },
     {
       icon: Facebook,
       href: 'https://www.facebook.com/pisonbooks?mibextid=ZbWKwL',
-      label: 'Follow us on Facebook'
+      label: 'Follow us on Facebook',
     },
     {
-      icon: linkedin,
+      icon: Linkedin,
       href: 'https://www.linkedin.com/company/pison-group/',
-      label: 'Follow us on LinkedIn'
-    }
+      label: 'Follow us on LinkedIn',
+    },
   ];
 
   return (
@@ -39,7 +39,7 @@ export default function Footer() {
                 className="hover:text-[#cc9832] transition-colors"
                 aria-label={social.label}
               >
-                <social.icon className="w-6 h-6" />
+                {React.createElement(social.icon, { className: "w-6 h-6" })}
               </a>
             ))}
           </div>
