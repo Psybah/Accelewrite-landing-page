@@ -1,22 +1,27 @@
 import React from 'react';
-import { Instagram, Twitter, Facebook, Download } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Download, linkedin } from 'lucide-react';
 
 export default function Footer() {
   const socials = [
     {
       icon: Instagram,
-      href: 'https://www.instagram.com/accelewritea/profilecard/?igsh=MXAyd2xmdHM4dTEzeg==',
+      href: 'https://www.instagram.com/pison_group?igsh=Y3J2cHJ2bWVtNW9x',
       label: 'Follow us on Instagram'
     },
     {
       icon: Twitter,
-      href: 'https://x.com/pisonaccel?t=GK5trl_ZboHixZP0tj_JJw&s=09',
+      href: 'https://x.com/pison_group?t=Dh4viWU4JwO7JqPaHVnnwg&s=09',
       label: 'Follow us on X (Twitter)'
     },
     {
       icon: Facebook,
-      href: 'https://www.facebook.com/profile.php?id=61570493459062',
+      href: 'https://www.facebook.com/pisonbooks?mibextid=ZbWKwL',
       label: 'Follow us on Facebook'
+    },
+    {
+      icon: linkedin,
+      href: 'https://www.linkedin.com/company/pison-group/',
+      label: 'Follow us on LinkedIn'
     }
   ];
 
