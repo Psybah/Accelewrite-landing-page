@@ -38,10 +38,14 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <button className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
+          <a 
+            href="https://forms.gle/5QtMaD1JyGGbKKA69"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
             <span>Join the Movement</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
 
           <button
             onClick={handleDownloadBrochure}
