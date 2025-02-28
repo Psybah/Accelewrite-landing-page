@@ -43,7 +43,7 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-[#cc9832] hover:bg-[#a87a29] text-white text-lg font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-            <span>Join the Movement</span>
+            <span>Secure Your Spot</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
 
